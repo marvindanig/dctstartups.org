@@ -3,13 +3,22 @@ h1.site-title, .site-header .site-branding p.site-title {
 	font-size: 2.2rem;
     font-family: "Quattrocento Sans"; 
     font-weight: 700; 
-    font-weight: 700
+    font-weight: 700;
+}
+
+.site-header {
+    border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+a.site-title {
+    color: #333;
+    text-decoration: none;
 }
 
 .flex-container {
     display: flex;
     flex-direction: column;
-    margin: 0px 100px;
+    margin: 2% 8%;
 }
 
 #header {
@@ -18,10 +27,22 @@ h1.site-title, .site-header .site-branding p.site-title {
 }
 
 #titleDiv {
-    flex: 1;
+    flex: 3;
     background-color: "red";
+}
+
+nav#site-navigation {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #top-right-nav {
     list-style-type: none;
+    text-align: center;
+}
+
+#top-right-nav a {
+    text-decoration: none;
 }
