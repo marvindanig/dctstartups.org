@@ -44,6 +44,7 @@ nav#site-navigation {
 #top-right-nav {
     list-style-type: none;
     text-align: center;
+    align-items: center;
 }
 
 
