@@ -1,9 +1,12 @@
 
+.body {
+    background-color: #f3eee3;
+}
+
 h1.site-title, .site-header .site-branding p.site-title {
-	font-size: 2.2rem;
-    font-family: "Quattrocento Sans"; 
-    font-weight: 700; 
-    font-weight: 700;
+	font-size: 2.4rem;
+    font-family: "Inter"; 
+    font-weight: 900; 
 }
 
 .site-header {
@@ -43,6 +46,58 @@ nav#site-navigation {
     text-align: center;
 }
 
-#top-right-nav a {
+
+.add-startup-button {
+    background-color: #181D14;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Inter', serif;
+    font-weight: 500;
     text-decoration: none;
+}
+
+.add-startup-button:hover {
+    background-color: #333; /* Darken the background color on hover if desired */
+}
+
+#landingDiv {
+    margin: 2% 0 5% 0;
+}
+
+#landingTitle {
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: bolder;
+    letter-spacing: -1.6px;
+    line-height: 85.8px;
+}
+
+#subtitleDiv {
+    margin: 0 10%;
+    justify-content: center;
+}
+
+#landingSubtitle {
+    font-size: 22.7px;
+    font-family: 'Inter';
+    font-weight: medium;
+    text-align: center;
+    color: #181D14;
+}
+
+#landingButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#landingButtonDiv a {
+    margin: 2% 0;
+    font-size: 24px;
+    padding: 17px 50px;
 }

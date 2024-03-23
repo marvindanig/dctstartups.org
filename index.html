@@ -5,11 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DCStartups.org</title>
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-  <div id="container" class="flex-container">
+<body class="body">
+  <div class="flex-container">
     <div id="header" class="site-header">
       <div id="titleDiv">
         <h1 class="site-title">
@@ -18,9 +19,19 @@
       </div>
       <nav id="site-navigation">
         <ul id="top-right-nav">
-          <li><a href="https://dcstartups.org/form.html">Submit Your Startup</a></li>
+          <a class="add-startup-button" href="https://dcstartups.org/form.html">Add Startup</a>
+          <!-- <li><a href="https://dcstartups.org/form.html">Submit Your Startup</a></li> -->
         </ul>
       </nav>
+    </div>
+    <div id="landingDiv">
+      <h1 id="landingTitle">Explore the startups in the<br>D.C.-Maryland-Virginia area</h1>
+      <div id="subtitleDiv">
+        <p id="landingSubtitle">We're aiming to help improve the startup scene in the DMV area by providing more visibility into local startups</p>
+      </div>
+      <div id="landingButtonDiv">
+        <a class="add-startup-button" href="https://dcstartups.org/form.html">Add Your Startup Now</a>
+      </div>
     </div>
     <div id="table-content" class="flex-item">
       <iframe class="airtable-embed"
