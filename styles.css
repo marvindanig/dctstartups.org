@@ -133,6 +133,13 @@ nav#site-navigation {
     margin-left: 10%;
 }
 
+.socialsDiv {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+
 .fa-linkedin {
     background: #007bb5;
     color: white;
@@ -150,12 +157,8 @@ nav#site-navigation {
 
 .fa:hover {
     opacity: 0.7;
-}
-
-.socialsDiv {
-    display: flex;
-    justify-content: center;
-    margin: 5% 0;
+    transform: scale(1.05);
+    background-color: #0056b3;
 }
 
 .fa-envelope {
@@ -172,9 +175,12 @@ nav#site-navigation {
     background-color: #faeee3;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-  }
+    margin-right: 3%;
+}
 
-  .email-button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-  }
+.fa-meetup {
+    background: #e0393e;
+    color: white;
+    margin-right: 3%;
+    transition: all 0.3s ease;
+}
