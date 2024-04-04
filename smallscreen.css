@@ -35,3 +35,16 @@ h1.site-title, .site-header .site-branding p.site-title {
     font-size: 12px;
     padding: 15px 30px;
 }
+
+#communityIntro {
+    flex-direction: column;
+}
+
+.contentImageDiv {
+    margin: 5% 0;
+}
+
+.contentImage {
+    width: 100%;
+    height: auto;
+}

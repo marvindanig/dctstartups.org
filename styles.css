@@ -1,12 +1,12 @@
-
 .body {
     background-color: #f3eee3;
 }
 
-h1.site-title, .site-header .site-branding p.site-title {
-	font-size: 2.4rem;
-    font-family: "Inter"; 
-    font-weight: 900; 
+h1.site-title,
+.site-header .site-branding p.site-title {
+    font-size: 2.4rem;
+    font-family: "Inter";
+    font-weight: 900;
 }
 
 .site-header {
@@ -63,7 +63,8 @@ nav#site-navigation {
 }
 
 .add-startup-button:hover {
-    background-color: #333; /* Darken the background color on hover if desired */
+    background-color: #333;
+    /* Darken the background color on hover if desired */
 }
 
 #landingDiv {
@@ -102,3 +103,78 @@ nav#site-navigation {
     font-size: 20px;
     padding: 17px 50px;
 }
+
+.contentDiv {
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: column;
+}
+
+.contentTitle {
+    font-size: 40px;
+    font-family: 'Inter';
+    font-weight: 900;
+    color: #181D14;
+}
+
+#siteIntroText {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: medium;
+    color: #181D14;
+}
+
+#communityIntro {
+    display: flex;
+    flex-direction: row;
+}
+
+.contentImageDiv {
+    margin-left: 10%;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-right: 3%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.socialsDiv {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.fa-envelope {
+    /* display: inline-block; */
+    /* width: 60px; */
+    /* height: 60px; */
+    /* border-radius: 50%; */
+    /* color: #fff; */
+    /* text-align: center; */
+    /* line-height: 60px; */
+    /* font-size: 24px; */
+    /* text-decoration: none; */
+    color: #fff;
+    background-color: #faeee3;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .email-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
