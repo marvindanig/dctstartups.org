@@ -106,7 +106,7 @@ nav#site-navigation {
 
 .contentDiv {
     display: flex;
-    margin: 5% 10%;
+    margin: 4% 10% 0 10%;
     flex-direction: column;
 }
 
@@ -130,13 +130,15 @@ nav#site-navigation {
 }
 
 .contentImageDiv {
-    margin-left: 10%;
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
 }
 
 .socialsDiv {
     display: flex;
     justify-content: center;
-    margin: 5% 0;
+    margin: 10% 0;
 }
 
 
