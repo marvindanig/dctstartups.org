@@ -117,11 +117,12 @@ nav#site-navigation {
     color: #181D14;
 }
 
-#siteIntroText {
+.siteIntroText {
     font-size: 18px;
     font-family: 'Inter';
     font-weight: medium;
     color: #181D14;
+    line-height: 1.4;
 }
 
 #communityIntro {
