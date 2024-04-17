@@ -5,14 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DCStartups.org</title>
-  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="smallscreen.css" media="screen and (max-width: 600px)">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <script type="text/javascript">
-    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+    window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var r = document.createElement("script"); r.type = "text/javascript", r.async = !0, r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js"; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(r, a); for (var n = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], o = 0; o < p.length; o++)heap[p[o]] = n(p[o]) };
     heap.load("3096783007");
   </script>
 </head>
@@ -50,13 +51,22 @@
     </div>
     <div id="siteIntro" class="flex-item contentDiv">
       <h2 class="contentTitle">Why this site?</h2>
-      <p class="siteIntroText">We believe the DC-Maryland-Virginia (DMV) area is underrated and it has the potential to be a hotspot for startups and entrepreneurs. We've seen that there is a plethora of tech and entrepreneurship talent, but few ways of connecting that talent. We have the patches, but not the fabric. This website is an effort to compile all the patches, and provide visibility into the startup scene for someone thinking of starting their journey, starting their journey, or moving their journey into the area. 
+      <p class="siteIntroText">We believe the DC-Maryland-Virginia (DMV) area is underrated and it has the potential to
+        be a hotspot for startups and entrepreneurs. We've seen that there is a plethora of tech and entrepreneurship
+        talent, but few ways of connecting that talent. We have the patches, but not the fabric. This website is an
+        effort to compile all the patches, and provide visibility into the startup scene for someone thinking of
+        starting their journey, starting their journey, or moving their journey into the area.
       </p>
     </div>
     <div id="communityIntro" class="flex-item contentDiv">
       <div class="contentTextDiv">
         <h2 class="contentTitle">Who are we?</h2>
-        <p class="siteIntroText">Our group is composed of volunteers, who are founders or aspiring entrepreneurs, united by a common vision to elevate our region into one of the nation's premier startup hubs. Sponsored by the Pitch Labs team within Petri Dish, a 501(c)3 organization in the DC area, our mission is to help build up our local startup scene. We are individuals who have chosen to call the DC area our home. We collaborate closely with a diverse network of meetup groups, nonprofits, and companies, all dedicated to work towards the same goal of improving the area as a whole. If the DMV startup community grows, we all grow.</p>
+        <p class="siteIntroText">Our group is composed of volunteers, who are founders or aspiring entrepreneurs, united
+          by a common vision to elevate our region into one of the nation's premier startup hubs. Sponsored by the Pitch
+          Labs team within Petri Dish, a 501(c)3 organization in the DC area, our mission is to help build up our local
+          startup scene. We are individuals who have chosen to call the DC area our home. We collaborate closely with a
+          diverse network of meetup groups, nonprofits, and companies, all dedicated to work towards the same goal of
+          improving the area as a whole. If the DMV startup community grows, we all grow.</p>
         <div class="socialsDiv">
           <a href="https://www.linkedin.com/company/pitchlabs-dc/" class="fa fa-linkedin"></a>
           <a href="mailto:info@pitchlabs.org" class="fa fa-envelope"></a>
@@ -64,12 +74,49 @@
         </div>
       </div>
       <div class="contentImageDiv">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="assets/presentation1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/presentation2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/presentation3.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="contentImageDiv">
         <img src="assets/andrey-presentation.jpg" alt="DCStartups.org Logo" width="400px" height="300px"
           class="contentImage">
-      </div>
+      </div> -->
     </div>
   </div>
   </form>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -48,7 +48,7 @@ nav#site-navigation {
 }
 
 
-.add-startup-button {
+a.add-startup-button {
     background-color: #181D14;
     color: white;
     border: none;
@@ -62,7 +62,7 @@ nav#site-navigation {
     text-decoration: none;
 }
 
-.add-startup-button:hover {
+a.add-startup-button:hover {
     background-color: #333;
     /* Darken the background color on hover if desired */
 }
@@ -149,31 +149,21 @@ nav#site-navigation {
     margin-right: 3%;
 }
 
-.fa {
+a.fa {
     padding: 20px;
     font-size: 30px;
-    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
 }
 
-.fa:hover {
-    opacity: 0.7;
+a.fa-linkedin:hover {
     transform: scale(1.05);
-    background-color: #0056b3;
+    background-color: #007bb5;
+    color: white;
 }
 
-.fa-envelope {
-    /* display: inline-block; */
-    /* width: 60px; */
-    /* height: 60px; */
-    /* border-radius: 50%; */
-    /* color: #fff; */
-    /* text-align: center; */
-    /* line-height: 60px; */
-    /* font-size: 24px; */
-    /* text-decoration: none; */
+a.fa-envelope {
     color: #fff;
     background-color: #faeee3;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
@@ -181,9 +171,25 @@ nav#site-navigation {
     margin-right: 3%;
 }
 
-.fa-meetup {
+a.fa-envelope:hover {
+    background-color: #faeee3;
+    color: white;
+    transform: scale(1.05);
+}
+
+a.fa-meetup {
     background: #e0393e;
     color: white;
     margin-right: 3%;
     transition: all 0.3s ease;
+}
+
+a.fa-meetup:hover {
+    background-color: #c92a2f;
+    transform: scale(1.05);
+}
+
+#myCarousel {
+    width: 400px;
+    height: 300px;
 }
