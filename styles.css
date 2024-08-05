@@ -62,9 +62,27 @@ a.add-startup-button {
     text-decoration: none;
 }
 
+a#channelButton {
+    background-color: #181D14;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 14px 50px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
 a.add-startup-button:hover {
     background-color: #333;
     /* Darken the background color on hover if desired */
+}
+
+a#channelButton img {
+    display: none;
 }
 
 #landingDiv {

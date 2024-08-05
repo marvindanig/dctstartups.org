@@ -10,6 +10,14 @@ div#titleDiv {
     padding: 5% 0;
 }
 
+#site-nagivation {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    display: table;
+    padding: 5% 0;
+}
+
 h1.site-title, .site-header .site-branding p.site-title {
 	font-size: 1.4rem;
     font-family: "Inter"; 
@@ -24,6 +32,16 @@ h1.site-title, .site-header .site-branding p.site-title {
     line-height: 60px;
 }
 
+#top-right-nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: red; */
+}
+
+
+
 a.add-startup-button {
     border-radius: 40px;
     padding: 15px 20px;
@@ -33,6 +51,29 @@ a.add-startup-button {
     font-family: 'Inter', serif;
     font-weight: 500;
     text-decoration: none;
+}
+
+a#channelButton {
+    background-color: #f3eee3;
+    border-radius: 40px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 0px;
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    text-decoration: none;  
+}
+
+a#channelButton:hover {
+    background-color: #f3eee3;
+    /* Darken the background color on hover if desired */
+}
+
+a#channelButton img {
+    display: block;
+    /* width: 20px; */
+    height: auto;
+
 }
 
 #form-add-startup {
